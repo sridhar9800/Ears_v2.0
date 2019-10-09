@@ -128,7 +128,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.3.1)
-    nokogiri (1.10.3)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -191,6 +191,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     regexp_parser (1.5.1)
+    rpi_gpio (0.3.3)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -291,6 +292,7 @@ DEPENDENCIES
   pry-byebug (>= 3.7.0)
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rpi_gpio
   rspec
   rufus-scheduler
   sass-rails (~> 5.0)
